@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Mate+SC&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --fonte-titulo:"DM Serif Text", serif;
+    --fonte-texto:"Mate SC", serif;
+    --ciano:#a2d2ff;
+    --rosa:#ffc8dd;
+    --amarelo:#ffe566;
+    --roxo:#c77dff;
+    --cinza:#6c757d;
+    --preto:#000000;
+    --verde:#2d6a4f;
+    --amarelo:#ffff3f;
+
+}
+body{
+    background-color: var(--ciano);
+    font-family: var(--fonte-titulo);
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--rosa);
+    padding: 1em;
+}
+
+footer p{
+    font-size: 1.2rem;
+    color: var(--verde);
+}
+
+footera{
+    text-decoration: none;
+    color: var(--roxo);
+}
